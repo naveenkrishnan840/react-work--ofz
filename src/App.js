@@ -6,7 +6,7 @@ import UseEffect from 'react';
 let list = [1, 2, 3, 4, 5];
 list.push(6);
 var el = list.map((index, b) => (
-  <div classname="sgd" key={index} tabIndex="sd" naveenKrishnan="3">
+  <div classname="sgd" key={index} tabIndex="sd">
     <p>{b}</p>
     <h1>Hello StackBlitz!</h1>
     <p>Start editing to see some magic happen :)</p>
